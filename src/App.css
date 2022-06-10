@@ -42,7 +42,7 @@ body{
 }
 
 .mainPage{
-  height: 600px;
+  height: 800px;
   padding: 0px !important;
   margin: 0px !important;
 }
@@ -77,6 +77,7 @@ footer{
 
 
 
+
 footer img.navImg{
   position: fixed;
   right: 40px;
@@ -94,9 +95,16 @@ footer img.navImg{
   border: 0.5px solid grey ;
   height: 100px;
   width: 25%;
+  cursor:pointer;
   border-radius: 6px;
   margin: 30px;
 }
+
+.dashboardOpt:hover{
+  box-shadow: grey 1px 2px 8px;
+}
+
+
 
 .dashboardHeading{
   background-color: rgb(255, 192, 252);
@@ -113,6 +121,14 @@ Button.uploadBtn{
   left: 80%;
 }
 
+Button.uploadBtn2{
+  color: white;
+  background-color: rgb(217, 108, 245);
+  position: relative;
+  left: 53%;
+  top: 70px;
+}
+
 .uploadBtn:hover{
   background-color: rgb(243, 137, 229);
 }
@@ -122,16 +138,28 @@ Button.uploadBtn{
 }
 
 .libraryContent div{
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   /* padding: 10px; */
 }
 
 .uploadStatusLibrary,.myMaterialLibrary{
-  background-color: rgb(214, 213, 214);
-  padding:2px 5px 5px 5px;
+  background-color: rgb(204, 204, 204);
+  padding:2px 5px 9px 9px;
 }
 
 h1{
   margin: 8px;
   padding: 10px;
+}
+
+.selectors{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.uploadform{
+  background-color: aquamarine;
 }
